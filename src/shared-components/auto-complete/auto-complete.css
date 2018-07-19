@@ -1,0 +1,22 @@
+.suggestions {
+  z-index: 1;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+}
+
+.suggestions li {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: white;
+  cursor: pointer;
+  border-bottom: 1px solid #d4d4d4; 
+}
+
+.suggestions li:hover {
+  background-color: #e9e9e9;
+}
+
+.active {
+  background-color: #007bff !important;
+  color: white;
+}
